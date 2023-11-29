@@ -9,7 +9,10 @@ require('dotenv').config()
 
 // db connection
 mongoose.connect(process.env.DB_URI)
-
+    .then(() => {
+    const app = express()
+    app.use(express.json())
+    app.use("/api", routes)
 
 
 
