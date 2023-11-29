@@ -15,6 +15,11 @@ mongoose.connect(process.env.DB_URI)
     app.use("/api", routes)
 
 
+    app.listen(5000, () => {
+        console.log("Server has started!")
+    })
+})
+
 
 
 
