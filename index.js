@@ -8,8 +8,7 @@ require('dotenv').config()
 
 
 // db connection
-
-
+mongoose.connect(process.env.DB_URI)
 
 
 
