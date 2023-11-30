@@ -31,8 +31,7 @@ mongoose.connect(process.env.DB_URI)
 // mongoose
 	// .connect("mongodb+srv://paradx34:ghost0011@atlascluster.u7brfdy.mongodb.net/acmedb")
 	// .then(() => {
-		// const app = express()
-        // app.use("/api", routes)
+		
 
 		// app.listen(3000, () => {
 			// console.log("Server has started!")
